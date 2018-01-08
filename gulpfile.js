@@ -82,12 +82,12 @@ gulp.task('example-server', function() {
       chunkModules: false
     },
     historyApiFallback: true
-  }).listen(exampleConfig.serverConfig.port, 'localhost', function(err, result) {
+  }).listen(exampleConfig.serverConfig.port, '138.68.233.235', function(err, result) {
     if (err) {
       console.log(err);
     }
 
-    console.log('Listening at localhost:3004');
+    console.log('Listening at 138.68.233.235:3004');
   });
 
 });

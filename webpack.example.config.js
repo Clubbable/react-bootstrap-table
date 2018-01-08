@@ -9,7 +9,7 @@ module.exports = {
       'react-hot-loader/patch',
       './examples/js/app.js'
     ],
-    vendors: [ 'webpack-dev-server/client?http://localhost:3004', 'webpack/hot/only-dev-server' ]
+    vendors: [ 'webpack-dev-server/client?http://138.68.233.235:3004', 'webpack/hot/only-dev-server' ]
   },
   debug: true,
   devtool: '#eval-source-map',
